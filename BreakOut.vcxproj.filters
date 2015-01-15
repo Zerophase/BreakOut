@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\testApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Ball.cpp">
+      <Filter>src\ShapesSource</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CollidableRect.cpp">
+      <Filter>src\ShapesSource</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Block.cpp">
+      <Filter>src\ShapesSource</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Object.cpp">
+      <Filter>src\ShapesSource\BaseShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Paddle.cpp">
+      <Filter>src\ShapesSource</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Vector2D.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BlockManager.cpp">
+      <Filter>src\ShapesSource\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Node.cpp" />
+    <ClCompile Include="src\BallOwnedStates.cpp">
+      <Filter>src\StateMachineCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PaddleOwnedStates.cpp">
+      <Filter>src\StateMachineCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Functor.cpp">
+      <Filter>src\FunctorSource</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Telegram.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BlockManagerOwnedStates.cpp">
+      <Filter>src\StateMachineCpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ShapesSource">
+      <UniqueIdentifier>{a3ab5da8-39b3-4da3-83e7-455812ce45e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ShapesHeader">
+      <UniqueIdentifier>{2c7aed3d-a9b8-4682-8a5a-047530b4429e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ShapesSource\BaseShapes">
+      <UniqueIdentifier>{327ef751-8015-4b79-902e-2fc8b11c01cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ShapesHeader\BaseShapes">
+      <UniqueIdentifier>{3e2f42f9-87d9-488c-8690-9d952691afae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ShapesHeader\Manager">
+      <UniqueIdentifier>{f505af0b-daef-4a67-830a-04c51507ae80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ShapesSource\Manager">
+      <UniqueIdentifier>{c53cb95a-2a9f-4675-895e-07ea05e58e9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\StateMachineHeaders">
+      <UniqueIdentifier>{67100d46-45a5-4e30-9e1b-faf8ed4e466f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\StateMachineCpp">
+      <UniqueIdentifier>{a3294dde-9ba6-4b7c-bbf2-9a504d47f0fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\FunctorHeader">
+      <UniqueIdentifier>{bff36a84-7db4-4677-9cd6-4a15189ec229}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\FunctorSource">
+      <UniqueIdentifier>{deecb19f-b52b-4b9d-871a-717b3ac9f0b2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\testApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Ball.h">
+      <Filter>src\ShapesHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Block.h">
+      <Filter>src\ShapesHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CollidableRect.h">
+      <Filter>src\ShapesHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Object.h">
+      <Filter>src\ShapesHeader\BaseShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Paddle.h">
+      <Filter>src\ShapesHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Vector2D.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BlockManager.h">
+      <Filter>src\ShapesHeader\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Node.h" />
+    <ClInclude Include="src\BallOwnedStates.h">
+      <Filter>src\StateMachineHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="src\State.h">
+      <Filter>src\StateMachineHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="src\StateMachine.h">
+      <Filter>src\StateMachineHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PaddleOwnedStates.h">
+      <Filter>src\StateMachineHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Functor.h">
+      <Filter>src\FunctorHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GenericObject.h">
+      <Filter>src\ShapesHeader\BaseShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Telegram.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BlockManagerOwnedStates.h">
+      <Filter>src\StateMachineHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CustomMath.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc" />
+  </ItemGroup>
+</Project>
